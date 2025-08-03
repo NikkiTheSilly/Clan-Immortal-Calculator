@@ -35,9 +35,10 @@ You can try the app here:
 
 1.0.1
 
-Fixed typo in instructions, changed "may" to "must"
-regarding entering member classes, as a lazy fix for
-an error when entering a clan member without a class.
+Fixed typo in instructions.
+Changed "may" to "must" regarding entering member classes, 
+as a lazy fix for an error that occurred when entering a 
+clan member without a class.
 
 Fixed formatting inconsistency in output
 
@@ -45,15 +46,24 @@ Fixed formatting inconsistency in output
 
 Reverted lazy fix from 1.0.1
 
-Properly fixed issue allowing members to be entered without classes
+Properly fixed issue allowing members to be entered without classes.
+
+1.0.3
+
+Corrected immortal health function for levels less than 7 - 
+curse the wiki feeding me misinformation!
+
+Calculator made into a proper webpage by Huang Bao.
 
 ---
 
 ## 🙏 Credits
 
-Calculator originally created by **Nikki**  
+Calculator originally created by **Nikki** 
 Please report any errors or bugs to them on Discord:  
 `@supermariooddity`
+
+Converted into a usable webpage by **Huang Bao**
 
 ---
 
