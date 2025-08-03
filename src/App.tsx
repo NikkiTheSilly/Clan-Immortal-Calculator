@@ -90,16 +90,16 @@ export default function ClanCalculator() {
   };
 
   return (
-    <div style={{ padding: '20px', maxWidth: '1000px', margin: '0 auto', fontFamily: 'sans-serif', backgroundColor: '#f5f5f5', borderRadius: '10px' }}>
+    <div style={{ padding: '20px', maxWidth: '1000px', margin: '0 auto', fontFamily: 'sans-serif', backgroundColor: '#1f1945', borderRadius: '10px' }}>
       <h1 style={{ textAlign: 'center', marginBottom: '20px' }}>Clan Immortal Level Calculator</h1>
 
       <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '10px' }}>
         {players.map((player, index) => (
           <div
             key={index}
-            style={{ display: 'flex', gap: '10px', alignItems: 'center', backgroundColor: '#ffffff', padding: '10px', borderRadius: '6px', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }}
+            style={{ display: 'flex', gap: '10px', alignItems: 'center', backgroundColor: '#1f1945', padding: '10px', borderRadius: '6px', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }}
           >
-            <label style={{ fontWeight: 'bold' }}>#{index + 1}</label>
+            <label style={{ fontWeight: 'bold' }}>member #{index + 1}</label>
             <input
               type="number"
               min="1"
